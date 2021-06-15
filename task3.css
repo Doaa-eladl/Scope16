@@ -1,0 +1,519 @@
+@font-face{
+    font-family: "CenturyGothicBold";
+    src: url("CenturyGothicBold.ttf");
+}
+
+@font-face{
+    font-family: "CenturyGothic";
+    src: url("Century\ Gothic.ttf.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 257px 50px;
+    max-width: 0;
+    margin: 0;
+}
+
+label{
+    margin: 20px 50px;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+#toggle{
+    display: none;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.logo{
+    width: 120px;
+    height: 30px;
+    margin-left: 92px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin-left: 500px;
+    margin-right: 92px;
+    height: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: "CenturyGothic";
+    color: #333399;
+    margin: 0 25px;
+    font-weight: bold;
+}
+
+.main-image{ 
+    height: 550px;
+    width: 1540px;
+    margin-top: 50px;
+}
+
+.main-title{
+    font-family:"CenturyGothicBold";
+    font-size: 3.8rem;
+    width: 160px;
+    position: absolute;
+    margin: 0;
+    color: #ffffff;
+    top: 170px;
+    left: 120px;
+}
+
+/*i think ان دي هبد عشان مكنتش عارفه اعمل الخد الي تحت ده */
+.sectiontitle-contner{
+    width: 200px;
+    border-bottom: solid #333399;
+    border-width: 5px;
+    margin: auto;
+}
+
+.section-title{
+    font-family: "CenturyGothicBold";
+    font-size: 1.8rem;
+    margin-top: 80px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #333399;  
+}
+
+.mainEvent-counter{
+    display: flex;
+    justify-content: center;
+ }
+
+.Scope-specker{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.AboutScope-paragraphs{
+    margin-left: 40px;
+    margin-top: 70px;
+    width: 400px;
+    height: 400px;
+    color: #585858;
+    font-size: 16px;
+    font-family: "CenturyGothic" ;
+}
+
+.AboutScope-paragraph1{
+    margin-top: 15px;
+}
+
+.AboutScope-paragraph2{
+    margin-top: 50px;
+}
+
+.ROLL-button{
+    width: 185px;
+    height: 60px;
+    margin-top: 130px;
+    margin-left: 130px;
+    padding: 0;
+    border: 0;
+    background-color: #333399;
+    color: #ffffff;
+}
+
+.speakers--counter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speakers-image{
+    width: 230px;
+    height: 220px;
+    margin: 50px 0px 80px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: black;
+}
+
+.speaker-name{
+    background-color: #333399;
+    color: white;
+    font-family: "CenturyGothicBold";  
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.schedule--section{
+    background-color: #f4f4f4;
+    margin: 0 auto 0 auto;
+    padding-bottom: 15px;
+}
+
+.buttons{
+    margin: 45px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right--button{
+    width: 225px;
+    height: 80px;
+    background-color: #333399;
+    padding: 0;
+    border: none;
+    font-family: "CenturyGothicBold";  
+    font-size: 18px;
+    color: white;
+}
+
+.left--button{
+    width: 225px;
+    height: 80px;
+    background-color: #cccccc;
+    padding: 0;
+    border: none;
+    font-family: "CenturyGothicBold";  
+    font-size: 18px;
+    color: white;
+}
+
+.sessions--contaner{
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.session--order{
+    width: 55px ;
+    height: 55px ;
+    border-radius: 50%;
+    background-color: #64c7d0;
+    color: #333399;
+    font-family: "CenturyGothicBold";  
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.session--title{
+    font-family: "CenturyGothicBold";  
+    margin-left: 10px;
+    font-size: 19px;
+    border-bottom: #64c7d0 solid;
+    color: #333399;
+    width: 300px;
+}
+
+.session-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.session--presenter{
+    font-family: "CenturyGothic" ;
+    color: #333399;
+    display: flex;
+    justify-content: flex-start;  
+    margin-left: 10px;
+}
+
+.session--time{
+    font-family: "CenturyGothic" ;
+    color: #333399;
+    display: flex;
+    justify-content: flex-end;   
+}
+
+.Rollin--section{
+    margin-bottom: 15px;
+}
+
+.location--section{
+    width: 100%;
+    height: 950px;
+    background-color: #f4f4f4;
+}
+
+.map-contaner{
+    margin: 100px auto;
+    height: 700px;
+    width: 1000px;
+    background-color: black;
+    border-radius: 1%;
+}
+
+.main--footer{
+    background-color: #5151a8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto ;
+    width: 100%;
+}
+
+.brife--paragraph{
+    color: #ffffff;
+    width: 43%;
+    font-size: 20px;
+    margin: auto;
+    font-family: "CenturyGothicBold";  
+    text-align: center;
+}
+
+.team--name{
+    color: #64c7d0;
+}
+
+.site--button{
+    background-color: #ffffff;
+    color: #333399;
+    margin: 20px auto;
+    margin-left: 700px;
+    height: 50px;
+    width: 150px;
+    font-family: "CenturyGothicBold";  
+    font-size: 14px;
+    padding: 0;
+    border: none;
+
+}
+
+.links{
+    list-style: none;
+    margin-top: 0 ;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.socialmedia-icon{
+    width: 35px;
+    height: 35px;
+}
+
+.link{
+    display: inline-block;
+}
+
+.sub-footer{
+    margin: 8px auto;
+    vertical-align: middle;
+    text-align: center;
+    color: #333399;
+    font-family: "CenturyGothic" ;
+    font-size: 17px;
+}
+
+.cat-highlighe{
+    font-family: "CenturyGothicBold";  
+}
+
+@media(max-width:40rem){
+    body{
+        grid-template-rows: auto;
+    }
+    
+.logo{
+    width: 120px;
+    height: 30px;
+    margin-left: 0px;
+}
+
+label{
+    display: block;
+    cursor: pointer;
+    margin: 0 450px;
+}
+
+.menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+
+.menu a{
+    display: block;
+    border: solid 1px #eaeaeb;
+    margin: 0;
+}
+
+#toggle:checked + .menu {
+    display: block;
+}
+
+    .main-image{ 
+        height: 300px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .main-title{
+        font-size: 1.8rem;
+        width: 40px;
+        top: 120px;
+        left: 20px;
+    }
+      
+    .sectiontitle-contner{
+        width: 400px;
+        border: none;
+        margin: 20px 0px;
+    }
+
+.section-title{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+    border: solid #333399;
+    margin-left: 200px;
+}
+
+
+.mainEvent-counter{
+    display: block;
+ }
+
+.Scope-specker{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 55px;
+    display: block;
+}
+
+.AboutScope-paragraphs{
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 12px;
+    height: auto;
+    width: 80%;
+}
+
+.AboutScope-paragraph1{
+    margin-top: 5px;
+}
+
+.AboutScope-paragraph2{
+    margin-top: 20px;
+}
+
+.ROLL-button{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.speakers--counter{
+    justify-content: end;
+}
+
+.speakers-image{
+    width: 130px;
+    height: 115px;
+    margin: 10px;
+}
+
+.speaker-name{
+    font-size: 14px;
+}
+
+.buttons{
+    margin: 40px 200px;
+    justify-content: end;
+}
+
+.right--button{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.left--button{
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+}
+    
+.sessions--contaner{
+    margin: 30px auto 0 auto;
+    justify-content: end;
+}
+
+.session--order{
+    width: 30px ;
+    height:30px ;
+    border-radius: 50%;
+    font-size: 30px;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.location--section{
+    width: auto;
+    height: auto;
+}
+
+.map-contaner{
+    margin: 20px 50px;
+    height: 400px;
+    width: 80%;
+}
+
+.main--footer{
+    padding: 5px;
+}
+
+.brife--paragraph{
+    width: 70%;
+    font-size: 14px;
+    margin: 10px 20px;
+    text-align: justify;
+}
+
+.site--button{
+    margin: 10px 0px;
+    margin-left: 200px;
+    height: 30px;
+    width: 120px;
+    font-size: 10px;
+}
+
+.links{
+    margin-top: 5px ;
+    margin-bottom: 10px;
+    margin-left: 150px;
+   justify-content: end;
+}
+
+.sub-footer{
+    margin: 8px auto;
+    font-size: 12px;
+}
+.sub-footer div{
+    margin-right: 50px;
+}
+}
